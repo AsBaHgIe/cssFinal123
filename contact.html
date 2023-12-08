@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Candy Atlas</title>
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CANDY ATLAS</h1>
+        <p class="special-text"><strong>Discover the Flavors of India!</strong></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <h2>Contact Us</h2>
+        <br>
+        <p>Email: candyatlas@candy.com</p>
+        <p>Phone: +1 (647) 833-8189</p>
+        <p>Address: 120 Bloor Street East, Toronto</p>
+        <br>
+        <br>
+        <br>
+        <p>Have questions or feedback? Feel free to reach out to us!</p>
+
+
+        <form action="process_contact.php" method="post">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Candy Atlas</p>
+    </footer>
+
+</body>
+
+</html>
